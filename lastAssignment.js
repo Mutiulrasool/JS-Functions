@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return width * hight;
         }
 
-        document.getElementById("task-5-p").innerHTML = "The total area of the triangle is: " + resultToShow(width, hight);
+        document.getElementById("task-5-p").innerHTML = "The total area of the triangle is: " + resultToShow(width, hight) + "CM";
         console.log(resultToShow(width, hight));
     }
 
